@@ -1,11 +1,13 @@
 [gd_scene format=3 uid="uid://do27y0rf8qcaw"]
 
+[ext_resource type="Script" uid="uid://4dml8xhpjbnh" path="res://src/static/scripts/main_scene.gd" id="1_grvaw"]
 [ext_resource type="PackedScene" uid="uid://csqx5v4cb1sxy" path="res://src/static/scenes/miguel.tscn" id="1_mkgkv"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mkgkv"]
 size = Vector2(1005.5, 20)
 
 [node name="main_scene" type="Node2D" unique_id=204176921]
+script = ExtResource("1_grvaw")
 
 [node name="Miguel" parent="." unique_id=225266533 instance=ExtResource("1_mkgkv")]
 position = Vector2(230, 76)
